@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+data/external/poetry-source/
+data/processed/
+data/interim/
+reports/results/

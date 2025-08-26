@@ -1,0 +1,22 @@
+paths:
+  poetry_repo: "data/external/poetry-source"
+  tang_traditional: "data/external/poetry-source/全唐诗/CText_JSON_cht"
+outputs:
+  raw: "data/processed/corpus_raw"
+  chunks: "data/processed/corpus_chunks"
+  results_dir: "reports/results"
+filters:
+  min_chars: 20
+sampling:
+  per_author: 20
+  min_per_author: 20
+  max_authors: 5
+  seed: 42
+features:
+  ngram_min: 1
+  ngram_max: 3
+  min_termfreq: 5
+  tfidf: false
+  top_terms: 5000
+clustering:
+  methods: ["kmeans","hclust"]
