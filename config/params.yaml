@@ -20,3 +20,11 @@ features:
   top_terms: 5000
 clustering:
   methods: ["kmeans","hclust"]
+sweep:
+  lengths: [800, 1000, 2000, 4000, 6000, 8000]   # target character lengths (must be ≤ source chunk length)
+  replicates: 10                      # how many samples per length
+  seed_base: 20250828                 # base seed; replicate seeds are derived
+stylo:
+  ngram_size: 1
+  mfw_min: 100
+  mfw_max: 600

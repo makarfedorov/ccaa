@@ -1,0 +1,13 @@
+length,method,mean_ari,sd_ari,n_runs
+800,ari_hclust,0,0,10
+800,ari_kmeans,0,0,10
+1000,ari_hclust,0,0,10
+1000,ari_kmeans,0,0,10
+2000,ari_hclust,0,0,10
+2000,ari_kmeans,0,0,10
+4000,ari_hclust,0,0,10
+4000,ari_kmeans,0,0,10
+6000,ari_hclust,0,0,10
+6000,ari_kmeans,0,0,10
+8000,ari_hclust,0,0,10
+8000,ari_kmeans,0,0,10
