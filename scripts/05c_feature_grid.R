@@ -12,9 +12,9 @@ source("R/labels_from_filenames.R")  # author_from_fname()
 P <- yaml::read_yaml("config/params.yaml")
 
 # --- config (edit in params.yaml if you wish) ---
-mfw_values  <- P$sweep$mfw_values %||% seq(100, 800, by = 100)
-ngram_values <- P$sweep$ngram_values %||% 1:4
-distances   <- P$sweep$distances %||% c("delta","cosine","argamon","euclidean", "eder", "simple", "canberra")
+mfw_values  <- P$sweep$mfw_values %||% seq(500, 800, by = 100)
+ngram_values <- P$sweep$ngram_values %||% 1:2
+distances   <- P$sweep$distances %||% c("wurzburg")
 
 results_dir   <- P$outputs$results_dir   %||% "reports/results"
 artifacts_dir <- P$outputs$artifacts_dir %||% "artifacts/stylo"

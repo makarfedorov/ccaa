@@ -101,7 +101,7 @@ for (M in mfw_values) {
     culling.min       = 0,
     culling.max       = 0,
     delete.pronouns   = FALSE,
-    distance          = "delta",
+    distance.measure  = "wurzburg",
     analysis.type     = "CA",        # avoids plotting var bug
     display.on.screen = FALSE,
     write.png.file    = FALSE, write.pdf.file = FALSE,

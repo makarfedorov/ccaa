@@ -39,7 +39,7 @@ for (mfw_max in mfw_grid) {
     mfw.max           = mfw_max,
     culling.min       = 0, culling.max = 0,
     delete.pronouns   = FALSE,
-    distance          = "delta",
+    distance.measure  = "wurzburg",
     analysis.type     = "CA",
     display.on.screen = FALSE,
     write.png.file    = FALSE, write.pdf.file = FALSE,
